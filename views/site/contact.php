@@ -8,13 +8,19 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = \Yii::t('app', 'Contact');
-$this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="site-about">
     <div class="well">
         <h1>
-            <?= Html::encode($this->title) ?>
+           <p>
+               Streetwear </br>
+               Silhouette </br>
+               266 Union Street </br>
+               Northvale, NJ 07647 </br>
+               800-626-8684 </br>
+               <a href=http://streetwear/web/>Web Site</a>
+           </p>
         </h1>
     </div>
 </div>

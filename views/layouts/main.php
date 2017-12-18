@@ -49,7 +49,7 @@ if (\Yii::$app->user->can('adminPermission')) {
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'Flowertree',
+        'brandLabel' => 'Collapse',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-default',
@@ -95,7 +95,7 @@ if (\Yii::$app->user->can('adminPermission')) {
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; Flowertree <?= date('Y') ?></p>
+        <p class="pull-left">&copy; Collapse StreetWear <?= date('Y') ?></p>
     </div>
 </footer>
 

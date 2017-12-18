@@ -270,3 +270,9 @@ a.desc:after {
 .modal-dialog {width:600px;}
 
 .thumbnail {margin-bottom:6px;}
+
+body{
+    background-image: url("/web/img/bckgrnd.jpg");
+    background-size: cover;
+
+}
